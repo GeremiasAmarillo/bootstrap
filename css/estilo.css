@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(197, 255, 236);
+}
+
+h1,
+h2 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-family: 'Great Vibes', cursive;
+}
+
+.fondoMio {
+    background-color: rgb(0, 150, 150);
+}
+
+.miEstilo {
+    width: 300px;
+    margin: 10px auto;
+
+}
+
+.tabla {
+    width: 500px;
+    margin: 10px auto;
+}
+
+.logo{
+    width: 80px;
+}
+
+.fondoNav{
+    background-color: aqua;
+}
+
+.acordeon{
+    width: 400px;
+}
+
+.domicilio{
+    width: 50px;
+    margin: 10px auto;
+}

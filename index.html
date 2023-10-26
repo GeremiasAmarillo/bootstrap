@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+    <!--link a bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <header class="bg-primary p-3">
+        <h1 class="text-center">Bootstrap</h1>
+
+        <nav class="navbar navbar-expand-lg  fondoNav">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#">
+                    <img class="logo" src="./img/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2 class="text-center p-3 fondoMio text-light">Beneficios</h2>
+        <p class="p-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam deserunt labore quod consectetur!
+            Excepturi est alias corporis dolore ipsum? Fugiat quas nihil assumenda facere fuga aspernatur animi autem
+            natus hic? Commodi molestias sequi iste. Temporibus suscipit ea consequuntur impedit. Aspernatur, veritatis
+            repudiandae adipisci, quibusdam sit eos nostrum dolor numquam alias corrupti in nihil consequatur provident
+            eveniet minus harum ipsum blanditiis fugiat modi? Non accusamus, veniam facere animi et neque repudiandae,
+            magni, dolorem culpa eius hic. Ut, pariatur accusantium laboriosam alias amet qui doloribus cupiditate
+            cumque cum quaerat distinctio adipisci vero voluptate aspernatur eos, veritatis delectus eligendi animi
+            quidem facilis?
+        </p>
+        <p class="lead p-3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi corporis nobis dolorum sint, sed nemo
+            maxime quibusdam necessitatibus similique numquam. Sequi dicta necessitatibus ea, nisi expedita iste
+            recusandae, maiores accusantium earum veniam ex, consequuntur sed accusamus fuga dolores tenetur consectetur
+            amet cupiditate cum. Eveniet error praesentium, doloribus quidem corporis veritatis porro minima, eius
+            voluptates rem sint. Rem molestiae nam minima cum asperiores obcaecati sint ducimus! Aliquid, minus porro
+            velit laboriosam quod magni facere cum quasi provident soluta. Quisquam distinctio impedit assumenda ipsa
+            qui recusandae expedita, nisi dignissimos quis consequuntur! Ea quae inventore aut nobis neque tenetur. Iste
+            placeat beatae labore?
+        </p>
+
+        <section>
+            <h2 class="text-center">Formulario</h2>
+            <form class="miEstilo">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Escribe tu nombre</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Escribe tu apellido</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Acepto los terminos</label>
+                </div>
+                <button type="submit" class="btn btn-info">Enviar</button>
+            </form>
+        </section>
+        <section class="tabla ">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="acordeon  mx-auto mb-3">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Tienen entrega a domicilio?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">realizamos entregas en todo el pais
+                            <img class="domicilio" src="./img/icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Aceptan mercado pago?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                            body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="text-center">Botones desplegables</h2>
+            <div class="dropdown m-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.google.com" target="_blank">Ir a Google</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Cards</h2>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/perfil.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 1</h5>
+                    <p class="card-text">Descripcion del producto</p>
+                    <a href="#" class="btn btn-primary">Ir a comprar</a>
+                </div>
+            </div>
+        </section>
+        <section class="grilla container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-lg-4 col-6 p-3 bg-primary">
+                    <h3>Primera columna</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quia facilis ipsam consequatur
+                        iusto eligendi veniam eum quasi eveniet cupiditate.</p>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-lg-4 col-6 p-3 bg-secundary">
+                    <h3>Segunda columna</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quia facilis ipsam consequatur
+                        iusto eligendi veniam eum quasi eveniet cupiditate.</p>
+                </div>
+
+            
+                <div class="col-xs-12 col-sm-12 p-3 col-lg-4 bg-light">
+                    <h3>Tercer columna</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quia facilis ipsam
+                        consequatur iusto eligendi veniam eum quasi eveniet cupiditate.</p>
+                </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
